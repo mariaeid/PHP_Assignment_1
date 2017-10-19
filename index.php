@@ -18,11 +18,13 @@ require __DIR__.'/functions.php';
         <link href="style.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
-        <?php foreach ($newsFeeds as $newsFeed): ?>
-            <div class="newsContainer">
-                <h1> <?php echo $newsFeed['title']?></h1>
-                <p> <?php echo $newsFeed['author']?></p>
-            </div>
-        <?php endforeach; ?>
+        <?php foreach ($posts as $post): ?>
+                <div class="newsContainer">
+                    <h1> <?php echo $post['title']?></h1>
+                    <p> <?php echo $post['content']?></p>
+                    <p> <?php echo $post['author']?></p>
+                    <p> <?php echo $post['date']?></p>
+                </div>
+            <?php endforeach; ?>
     </body>
 </html>
