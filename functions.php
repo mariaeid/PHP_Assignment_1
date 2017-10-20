@@ -8,3 +8,8 @@ function sortByDate($a, $b) {
 }
 
 usort($posts, 'sortByDate');
+
+
+ function hello(){
+     echo "Hello";
+ }

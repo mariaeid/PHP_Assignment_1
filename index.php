@@ -5,6 +5,7 @@
 
 require __DIR__.'/data.php';
 require __DIR__.'/functions.php';
+require __DIR__.'/script.html';
 
 ?>
 
@@ -24,6 +25,9 @@ require __DIR__.'/functions.php';
                     <p> <?php echo $post['content']?></p>
                     <p> <?php echo $post['author']?></p>
                     <p> <?php echo $post['date']?></p>
+                    <label for="like">Likes</label>
+                    <input id="like" value="0" />
+                    <button id="up" onclick="likeCounter(1)">Like</button>
                 </div>
             <?php endforeach; ?>
     </body>
