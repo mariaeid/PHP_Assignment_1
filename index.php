@@ -17,17 +17,21 @@ require __DIR__.'/script.html';
         shrink-to-fit=no">
         <title>Good News</title>
         <link href="style.css" type="text/css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
     </head>
     <body>
+        <div class="header">
+            <h1>MAKE NEWS FEED GREAT AGAIN!</h1>
+        </div>
         <?php foreach ($posts as $post): ?>
                 <div class="newsContainer">
-                    <h1> <?php echo $post['title']?></h1>
+                    <h2> <?php echo $post['title']?></h2>
                     <p> <?php echo $post['content']?></p>
                     <p> <?php echo $post['author']?></p>
                     <p> <?php echo $post['date']?></p>
                     <label for="like">Likes</label>
-                    <input id="like" value="0" />
-                    <button id="up" onclick="likeCounter(1)">Like</button>
+                    <input id="<?php $post['title']?>" value="0" />
+                    <button id="up" onclick="likeCounter(<?php $post['title']?>)">Like</button>
                 </div>
             <?php endforeach; ?>
     </body>

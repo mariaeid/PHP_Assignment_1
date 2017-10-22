@@ -1,11 +1,12 @@
 <script>
 var like = 0;
 
-function likeCounter(val){
-    var like = document.getElementById('like').value;
-    var new_like = parseInt(like) + val;
+function likeCounter(likeID){
+    var like = document.getElementById(likeID).value;
+    var new_like = parseInt(like) + 1;
 
-    document.getElementById('like').value = new_like;
+    document.getElementById(likeID).value = new_like;
     return new_like;
 }
+
 </script>
