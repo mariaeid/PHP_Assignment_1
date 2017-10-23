@@ -1,5 +1,4 @@
 <?php
-// This is the file where you can keep all your functions.
 
 declare(strict_types=1);
 

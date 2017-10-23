@@ -1,6 +1,5 @@
 <?php
-// This is the file where you can keep all your data such as articles and
-// authors.
+
 declare(strict_types=1);
 
 $content1 = "An 'extremely credible source' has called my office and told me
@@ -22,17 +21,20 @@ pay for that text. Mark my words.";
 $posts = [
   ['title' => 'Ipsum covfefe',
   'content' => $content1,
-  'author' => 'Steven Mnuchin',
-  'date' => '2014-01-01'],
+  'author' =>'Steven Mnuchin',
+  'date' => '2014-01-01',
+  'likeCounter' => 2577],
 
   ['title' => 'We need to build a wall',
   'content' => $content2,
   'author' => 'Donald Trumph',
-  'date' => '2015-01-01'],
+  'date' => '2015-01-01',
+  'likeCounter' => 6498],
 
   ['title' => 'I will write some great, great text',
   'content' => $content3,
   'author' => 'Jeff Sessions',
-  'date' => '2016-01-01'],
+  'date' => '2016-01-01',
+  'likeCounter' => 1467]
 
 ];
