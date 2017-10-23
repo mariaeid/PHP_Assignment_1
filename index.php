@@ -24,9 +24,8 @@ require __DIR__.'/script.html';
         <?php foreach ($posts as $post): ?>
                 <div class="newsContainer">
                     <h2> <?php echo $post['title']?></h2>
+                    <p> By <?php echo $post['author'].' | '.$post['date']?></p>
                     <p> <?php echo $post['content']?></p>
-                    <p> By <?php echo $post['author']?></p>
-                    <p> <?php echo $post['date']?></p>
                     <img src="img/like.png" alt="like icon" width="8%" height="10%"/>
                     <!-- <label for="like">Likes</label>
                     <input id="<?php //$post['title']?>" value="0" />
