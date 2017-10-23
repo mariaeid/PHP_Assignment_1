@@ -14,7 +14,7 @@ require __DIR__.'/script.html';
         shrink-to-fit=no">
         <title>Good News</title>
         <link href="style.css" type="text/css" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css?family=Bevan|Source+Serif+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bevan|Oswald|Source+Serif+Pro" rel="stylesheet">
 
     </head>
     <body>
