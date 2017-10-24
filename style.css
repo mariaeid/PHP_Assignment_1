@@ -13,7 +13,7 @@ h1 {
 
 h2 {
   font-size: 35px;
-  font-family: 'Oswald', serif;
+  font-family: 'Source Serif Pro', serif;
 }
 
 p {
@@ -35,6 +35,26 @@ p {
   flex-direction: column;
   align-items: center;
   background-color: #8a171c;
+}
+
+.imgContainer {
+  align-self: flex-end;
+  position: absolute;
+  z-index: .5;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  height: 130px;
+  width: auto;
+  border-radius: 50%;
+  border: white solid;
+  align-self: flex-end;
 }
 
 input {

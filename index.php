@@ -2,7 +2,6 @@
 declare(strict_types=1);
 require __DIR__.'/data.php';
 require __DIR__.'/functions.php';
-require __DIR__.'/script.html';
 
 ?>
 
@@ -23,14 +22,19 @@ require __DIR__.'/script.html';
         </div>
         <?php foreach ($posts as $post): ?>
                 <div class="newsContainer">
-                    <h2> <?php echo $post['title']?></h2>
-                    <p> By <?php echo $post['author'].' | '.$post['date']?></p>
-                    <p> <?php echo $post['content']?></p>
-                    <img src="img/like.png" alt="like icon" width="8%" height="10%"/>
-                    <!-- <label for="like">Likes</label>
-                    <input id="<?php //$post['title']?>" value="0" />
-                    <button id="up" onclick="likeCounter(<?php //$post['title']?>)">Like</button> -->
+                    <div class="imgContainer">
+                        <img src="<?php echo $post['image']?>" alt="Profile image">
+                    </div>
+                    <div class="textContainer">
+                        <h2> <?php echo $post['title']?></h2>
+                        <p> by <?php echo $post['author']['name'].' | '.$post['date']?></p>
+                        <p> <?php echo $post['content']?></p>
+                    </div>
+                    <label for="like">Likes</label>
+                    <input class="like_input" value="0" />
+                    <button class="like_button">Like</button>
                 </div>
             <?php endforeach; ?>
+    <script src="script.js"> </script>
     </body>
 </html>
