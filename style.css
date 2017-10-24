@@ -49,7 +49,7 @@ p {
   align-items: center;
 }
 
-img {
+.profileImg {
   height: 130px;
   width: auto;
   border-radius: 50%;
@@ -65,4 +65,17 @@ input {
 	width: 100%;
 	margin: 0 0 .1em 0;
 	color: #fff;
+}
+
+.like_button {
+  cursor:pointer;
+  border: 0px !important;
+  z-index:100;
+  padding:0;
+  background-color: #8a171c;
+}
+
+.likeImg {
+  width: 70px;
+  height: auto;
 }

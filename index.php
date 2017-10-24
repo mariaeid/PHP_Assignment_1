@@ -23,16 +23,17 @@ require __DIR__.'/functions.php';
         <?php foreach ($posts as $post): ?>
                 <div class="newsContainer">
                     <div class="imgContainer">
-                        <img src="<?php echo $post['image']?>" alt="Profile image">
+                        <img class="profileImg" src="<?php echo $post['image']?>" alt="Profile image">
                     </div>
                     <div class="textContainer">
                         <h2> <?php echo $post['title']?></h2>
                         <p> by <?php echo $post['author']['name'].' | '.$post['date']?></p>
                         <p> <?php echo $post['content']?></p>
                     </div>
-                    <label for="like">Likes</label>
                     <input class="like_input" value="0" />
-                    <button class="like_button">Like</button>
+                    <button class="like_button" type="submit">
+                        <img class="likeImg"src="img/like.png" alt="submit"/>
+                    </button>
                 </div>
             <?php endforeach; ?>
     <script src="script.js"> </script>
