@@ -1,5 +1,7 @@
 # PHP_Assignment_1
 
+[<img src="https://media.giphy.com/media/l0Iyau7QcKtKUYIda/giphy.gif" alt="07 - Good News" width="100%">]
+
 This is an assignment for the web developer class of 2017 at YRGO yrkeshögskola, Göteborg, Sweden.
 
 ## Getting Started
