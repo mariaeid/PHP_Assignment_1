@@ -1,9 +1,4 @@
-body {
-  width: 100%;
-  margin: 0 auto;
-  background-color: #283681;
-  color: #fff;
-}
+/* Text styling */
 
 h1 {
   font-family: 'Bevan', cursive;
@@ -20,12 +15,23 @@ p {
   font-family: 'Source Serif Pro', serif;
 }
 
+/* General styling */
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #283681;
+  color: #fff;
+}
+
 .header {
   display: flex;
   justify-content: center;
   margin-top: 4%;
   margin-bottom: -3%;
 }
+
+/* Styling of the blog posts */
 
 .newsContainer {
   margin: 5% 10%;
@@ -43,18 +49,18 @@ p {
   z-index: .5;
 }
 
-.textContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .profileImg {
   height: 130px;
   width: auto;
   border-radius: 50%;
-  border: white solid;
+  border: #fff solid;
   align-self: flex-end;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 input {
@@ -67,12 +73,14 @@ input {
 	color: #fff;
 }
 
-.like_button {
+button {
   cursor:pointer;
   border: 0px !important;
   z-index:100;
   padding:0;
   background-color: #8a171c;
+  margin-top: 2%;
+  outline: none;
 }
 
 .likeImg {
