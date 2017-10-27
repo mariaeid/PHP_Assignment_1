@@ -1,3 +1,6 @@
+Hej Maria
+
+
 # PHP_Assignment_1
 
 [<img src="https://media.giphy.com/media/l0Iyau7QcKtKUYIda/giphy.gif" alt="07 - Good News" width="100%">]
