@@ -1,6 +1,6 @@
 # PHP_Assignment_1
 
-[<img src="https://media.giphy.com/media/l0Iyau7QcKtKUYIda/giphy.gif" alt="07 - Good News" width="100%">]
+<img src="https://media.giphy.com/media/l0Iyau7QcKtKUYIda/giphy.gif" alt="07 - Good News" width="100%">
 
 This is the first assignment in the course PHP at YRGO yrkeshögskola.
 
