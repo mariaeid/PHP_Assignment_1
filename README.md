@@ -2,7 +2,7 @@
 
 [<img src="https://media.giphy.com/media/l0Iyau7QcKtKUYIda/giphy.gif" alt="07 - Good News" width="100%">]
 
-This is an assignment for the web developer class of 2017 at YRGO yrkeshögskola, Göteborg, Sweden.
+This is the first assignment in the course PHP at YRGO yrkeshögskola.
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-If you don't already have MAMP, go to https://www.mamp.info/en/downloads/ and download it right away!
+If you don't already have MAMP, download it at https://www.mamp.info/en/downloads/.
 
 
 ## Built With
@@ -26,15 +26,15 @@ If you don't already have MAMP, go to https://www.mamp.info/en/downloads/ and do
 * Javascript
 
 
-## Authors
+## Author
 
 * **Maria Eidland**
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## Acknowledgments
+## Testers
 
-Testers: Beatrice Svensson, Emma Alborn
+Beatrice Svensson & Emma Alborn
